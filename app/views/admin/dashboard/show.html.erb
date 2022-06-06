@@ -1,5 +1,4 @@
-<h1>Admin Dashboard</h1>
-<hr>
-<br>
-<h5>Total Products: <%= @product_count %></h5>
-<h5>Total Categories: <%= @category_count %></h5>
+<h1>Dashboard</h1>
+<p>Number of products = <%=@number_of_products%></p>
+<p>Number of categories = <%=@number_of_categories%></p>
+<a href="<%= admin_products_path %>">Go to admin products</a>
